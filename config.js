@@ -10,7 +10,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
-global.mongodb= process.env.MONGODB_URI|| ""
+global.mongodb= process.env.MONGODB_URI|| "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
@@ -26,8 +26,8 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE||"https://telegra.ph/file/d5b1c3544fe
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923184474176";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256707521863";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256707521863";
 
 module.exports = {
 
@@ -35,17 +35,16 @@ module.exports = {
   style:process.env.STYLE|| "1",  // put '1' & "2" here to check bot styles
 
 
-  HANDLERS:process.env.PREFIX || ".",
+  HANDLERS:process.env.PREFIX || ",/",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.6",
   caption:process.env.CAPTION || "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ™*\n*ʟᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ* • 𝟭𝟰/𝟭𝟮/𝟮𝟬𝟮𝟯" ,// ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️👁️🙈💋 ",
-  botname: process.env.BOT_NAME   || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
-
+  author: process.env.PACK_AUTHER || "MORICEUG",
+  packname: process.env.PACK_NAME || "@JUMOTA256 ",
+  botname: process.env.BOT_NAME   || "MORICE",
+  ownername:process.env.OWNER_NAME|| "moriceug
 
   sessionName:process.env.SESSION_ID|| "",
   userImages:process.env.USER_IMAGES|| "",
@@ -53,7 +52,7 @@ module.exports = {
   warncount: process.env.WARN_COUNT || "3",
   disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-  readcmds:process.env.READ_COMMANDS|| "false", 
+  readcmds:process.env.READ_COMMANDS|| "true", 
   KOYEB_API: process.env.KOYEB_API  || "false",
 readmessage:process.env.READ_MESSAGE|| "false",
  aitts_Voice_Id:process.env.AITTS_ID|| "37",
@@ -62,7 +61,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
+  read_status: process.env.AUTO_READ_STATUS || "true",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
@@ -73,7 +72,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
 
 };
