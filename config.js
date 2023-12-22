@@ -46,7 +46,8 @@ module.exports = {
   botname: process.env.BOT_NAME   || "MORICE",
   ownername:process.env.OWNER_NAME|| "moriceug
 
-  sessionName:process.env.SESSION_ID|| "",
+  sessionName:process.env.SESSION_ID|| "SESSION_03_41_12_22_LanierKettle
+  ",
   userImages:process.env.USER_IMAGES|| "",
   errorChat: process.env.ERROR_CHAT || "",
   warncount: process.env.WARN_COUNT || "3",
