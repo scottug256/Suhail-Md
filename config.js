@@ -5,14 +5,14 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923184474176"
+global.devs = "256707521863"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
 global.mongodb= process.env.MONGODB_URI|| "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 global.DATABASE_URI=process.env.DATABASE_URL
-global.allowJids= process.env.ALLOW_JID || "null" 
+global.allowJids= process.env.ALLOW_JID || "256707521863" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan="https://replit.com/@SuhailTechInfo/Secktor-Bot?v=1";
 global.gurl= process.env.GURL   || "https://youtube.com/c/SuhailTechInfo";
@@ -46,7 +46,7 @@ module.exports = {
   botname: process.env.BOT_NAME   || "MORICE",
   ownername:process.env.OWNER_NAME|| "moriceug
 
-  sessionName:process.env.SESSION_ID|| "SESSION_03_41_12_22_LanierKettle
+  sessionName:process.env.SESSION_ID|| "ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net
   ",
   userImages:process.env.USER_IMAGES|| "",
   errorChat: process.env.ERROR_CHAT || "",
@@ -55,7 +55,7 @@ module.exports = {
   MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   readcmds:process.env.READ_COMMANDS|| "true", 
   KOYEB_API: process.env.KOYEB_API  || "false",
-readmessage:process.env.READ_MESSAGE|| "false",
+readmessage:process.env.READ_MESSAGE|| "true",
  aitts_Voice_Id:process.env.AITTS_ID|| "37",
  alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
  
